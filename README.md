@@ -24,9 +24,13 @@ Miscelleneous:
 
 ## Installation ##
 
-1. Click on the `Download ZIP` button at the right to download the plugin
-2. Upload the entire `wp-highlightjs` folder to the `/wp-content/plugins/` directory
-3. Activate the plugin through the `Plugins` menu in WordPress
+1) Click on the `Download ZIP` button at the right to download the plugin
+
+2) Upload the entire `wp-highlightjs` folder to the `/wp-content/plugins/` directory
+
+Important: Make sure that the name of the plugin directory is `wp-highlightjs`. This is important for the clipboard icon to appear. You can check and make this change using a FTP client or cPanel's file manager.
+
+3) Activate the plugin through the `Plugins` menu in WordPress
 
 ## Usage ##
 
@@ -49,7 +53,7 @@ More info: [https://highlightjs.org/](https://highlightjs.org/)
 
 ## Others ##
 
-Tested up to: 4.7.3  
-License: GPLv2 or later  
-License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
+Tested up to: 4.7.3
+License: GPLv2 or later
+License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
 Donate link: [https://www.paypal.me/sridharkatakam](https://www.paypal.me/sridharkatakam)
