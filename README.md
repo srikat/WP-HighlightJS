@@ -1,6 +1,6 @@
 # WP HighlightJS #
 
-Loads highlight.js on singular pages for syntax highlighting. Uses clipboard.js for 1-click copy to clipboard.
+Loads [highlight.js](https://highlightjs.org/) and [clipboard.js](https://clipboardjs.com/) on singular pages for syntax highlighting with a 1-click copy to clipboard button.
 
 ## Screenshot ##
 
@@ -8,52 +8,51 @@ Loads highlight.js on singular pages for syntax highlighting. Uses clipboard.js 
 
 ## Description ##
 
-Included Themes:
-* GitHub
+Included Theme:
+
+* Gruvbox Dark
 
 Included Languages:
 
-* HTML
+* HTML, XML
 * CSS
 * PHP
-* JS
+* JavaScript
+* JSON
 * Markdown
 
 Miscelleneous:
-* Copy to Clipboard Button (uses clipboard.js) appears when the mouse moves over the snippet
+
+* Copy to Clipboard Button (uses clipboard.js) appears when the mouse moves over the snippet on desktops.
 
 ## Installation ##
 
-1) Click on the `Download ZIP` button at the right to download the plugin
+1) Click on the `Download ZIP` button at the right to download the plugin.
 
-2) Upload the entire `wp-highlightjs` folder to the `/wp-content/plugins/` directory
+2) Upload the entire `wp-highlightjs` folder to the `/wp-content/plugins/` directory.
 
-Important: Make sure that the name of the plugin directory is `wp-highlightjs`. This is important for the clipboard icon to appear. You can check and make this change using a FTP client or cPanel's file manager.
-
-3) Activate the plugin through the `Plugins` menu in WordPress
+3) Activate the plugin through the `Plugins` menu in WordPress.
 
 ## Usage ##
 
 CSS:
 
-`<pre><code>p { color: red }</code></pre>`
-
-or
-
-`<pre><code class="language-css">p { color: red }</code></pre>`
-
-Note: To prevent HTML from being parsed, escape angle brackets in your source with `&lt;` and `&gt;` in order to have them appear literally in the document.
-
-More info: [https://highlightjs.org/](https://highlightjs.org/)
+In WordPress' Gutenberg editor, press three backticks (found on the ~ key on your keyboard) and hit return. Then place your code and close the code block with three backticks.
 
 ## Changelog ##
+
+### 2.0.0 ###
+* Updated highlight.js clipboard.js libraries to their latest versions.
+* Updated init js file to fix errors in the console.
+* Plugin name is not hardcoded any more in the init js file.
+* Replaced Github color theme with Gruvbox Dark.
 
 ### 1.0.0 ###
 * Initial Release
 
 ## Others ##
 
-Tested up to: 4.7.3
+Tested up to: 5.2.2
 License: GPLv2 or later
 License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
 Donate link: [https://www.paypal.me/sridharkatakam](https://www.paypal.me/sridharkatakam)

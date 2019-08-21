@@ -2,8 +2,8 @@
 /**
  * Plugin Name: WP HighlightJS
  * Plugin URI: https://github.com/srikat/WP-HighlightJS
- * Description: Loads HighlightJS with support for HTML, CSS, PHP, JS, Markdown on singular pages.
- * Version: 1.0.0
+ * Description: Loads HighlightJS and clipboard.js on singular pages for syntax highlighting with a 1-click copy to clipboard button.
+ * Version: 2.0.0
  * Author: Sridhar Katakam
  * Author URI: https://sridharkatakam.com/
  * License:           GPL-2.0+
@@ -23,11 +23,12 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_action( 'wp_enqueue_scripts', 'sk_enqueue_wphighlightjs' );
+add_action( 'wp_enqueue_scripts', 'wphjs_enqueue_wphighlightjs' );
 /**
- * Load HighlightJS on single posts.
+ * Load HighlightJS and clipboard JS on single entries.
  */
-function sk_enqueue_wphighlightjs() {
+function wphjs_enqueue_wphighlightjs() {
+
 	// if this is not a singular post, abort.
 	if ( ! is_singular() ) {
 		return;
@@ -35,8 +36,14 @@ function sk_enqueue_wphighlightjs() {
 
 	wp_enqueue_style( 'highlightjs-css', plugin_dir_url( __FILE__ ) . 'assets/css/style.css' );
 
-	wp_enqueue_script( 'clipboard', plugin_dir_url( __FILE__ ) . 'assets/js/clipboard.min.js', '', '1.6.1', true );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Source+Code+Pro&display=swap' );
 
-	wp_enqueue_script( 'highlightjs', plugin_dir_url( __FILE__ ) . 'assets/js/highlight.pack.js', '', '9.9.0', true );
+	wp_enqueue_script( 'clipboard', plugin_dir_url( __FILE__ ) . 'assets/js/clipboard.min.js', '', '2.0.4', true );
+
+	wp_enqueue_script( 'highlightjs', plugin_dir_url( __FILE__ ) . 'assets/js/highlight.pack.js', '', '9.15.10', true );
+
 	wp_enqueue_script( 'highlightjs-init', plugin_dir_url( __FILE__ ) . 'assets/js/highlight-init.js', '', '1.0.0', true );
+
+	wp_localize_script( 'highlightjs-init', 'pluginData', array( 'clippyUrl' => plugins_url( 'assets/images/clippy.svg', __FILE__ ) ) );
+
 }
