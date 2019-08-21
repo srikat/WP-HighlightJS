@@ -10,8 +10,6 @@ Copy to Clipboard Button appears in the top right corner when the mouse moves ov
 
 From 768px and below, it will always appear.
 
-## Description ##
-
 Included Theme:
 
 * Gruvbox Dark
@@ -35,13 +33,11 @@ Included Languages:
 
 ## Usage ##
 
-CSS:
-
 In WordPress' Gutenberg editor, press three backticks (found on the ~ key on your keyboard) and hit return. Then place your code and close the code block with three backticks.
 
 ## Changelog ##
 
-### 2.0.0 ###
+### 2.0.0 - August 21, 2019 ###
 * Updated highlight.js clipboard.js libraries to their latest versions.
 * Updated init js file to fix errors in the console.
 * Plugin name is not hardcoded any more in the init js file.
