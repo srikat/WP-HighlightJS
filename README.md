@@ -4,7 +4,7 @@ Loads [highlight.js](https://highlightjs.org/) and [clipboard.js](https://clipbo
 
 ## Screenshot ##
 
-![Screenshot](http://d.pr/i/CQBY+ "Screenshot")
+![Screenshot](https://d.pr/i/abb4xb+ "Screenshot")
 
 ## Description ##
 
