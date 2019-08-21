@@ -49,6 +49,9 @@ In WordPress' Gutenberg editor, press three backticks (found on the ~ key on you
 ## Others ##
 
 Tested up to: 5.2.2
+
 License: GPLv2 or later
+
 License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
+
 Donate link: [https://www.paypal.me/sridharkatakam](https://www.paypal.me/sridharkatakam)
