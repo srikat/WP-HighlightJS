@@ -2,9 +2,13 @@
 
 Loads [highlight.js](https://highlightjs.org/) and [clipboard.js](https://clipboardjs.com/) on singular pages for syntax highlighting with a 1-click copy to clipboard button.
 
-## Screenshot ##
-
 ![Screenshot](https://d.pr/i/abb4xb+ "Screenshot")
+
+Copy to Clipboard Button appears in the top right corner when the mouse moves over the code snippet for screen sizes 769px and above.
+
+![Screenshot](https://d.pr/i/u6MPQm+ "Screenshot")
+
+From 768px and below, it will always appear.
 
 ## Description ##
 
@@ -20,10 +24,6 @@ Included Languages:
 * JavaScript
 * JSON
 * Markdown
-
-Miscelleneous:
-
-* Copy to Clipboard Button (uses clipboard.js) appears when the mouse moves over the snippet on desktops.
 
 ## Installation ##
 
