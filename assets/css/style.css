@@ -234,6 +234,7 @@ pre {
 pre code,
 .entry-content pre code {
 	background-color: transparent;
+	color: #ebdbb2;
 }
 
 pre .btn {
