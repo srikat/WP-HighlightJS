@@ -22,6 +22,8 @@ Included Languages:
 * JavaScript
 * JSON
 * Markdown
+* Plain text
+* SCSS
 
 ## Installation ##
 
@@ -36,6 +38,10 @@ Included Languages:
 In WordPress' Gutenberg editor, press three backticks (found on the ~ key on your keyboard) and hit return. Then place your code and close the code block with three backticks.
 
 ## Changelog ##
+
+### 2.0.1 - Jan 11, 2021 ###
+* Updated highlight.js clipboard.js libraries to their latest versions.
+* Misc. CSS fixes.
 
 ### 2.0.0 - August 21, 2019 ###
 * Updated highlight.js clipboard.js libraries to their latest versions.

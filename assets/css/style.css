@@ -1,230 +1,142 @@
 /*
 
-github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
-*/
-
-/* .hljs {
-	display: block;
-	overflow-x: auto;
-	padding: 0.5em;
-	color: #333;
-	background: #f8f8f8;
-}
-
-.hljs-comment,
-.hljs-quote {
-	color: #998;
-	font-style: italic;
-}
-
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst {
-	color: #333;
-	font-weight: bold;
-}
-
-.hljs-number,
-.hljs-literal,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag .hljs-attr {
-	color: #008080;
-}
-
-.hljs-string,
-.hljs-doctag {
-	color: #d14;
-}
-
-.hljs-title,
-.hljs-section,
-.hljs-selector-id {
-	color: #900;
-	font-weight: bold;
-}
-
-.hljs-subst {
-	font-weight: normal;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-	color: #458;
-	font-weight: bold;
-}
-
-.hljs-tag,
-.hljs-name,
-.hljs-attribute {
-	color: #000080;
-	font-weight: normal;
-}
-
-.hljs-regexp,
-.hljs-link {
-	color: #009926;
-}
-
-.hljs-symbol,
-.hljs-bullet {
-	color: #990073;
-}
-
-.hljs-built_in,
-.hljs-builtin-name {
-	color: #0086b3;
-}
-
-.hljs-meta {
-	color: #999;
-	font-weight: bold;
-}
-
-.hljs-deletion {
-	background: #fdd;
-}
-
-.hljs-addition {
-	background: #dfd;
-}
-
-.hljs-emphasis {
-	font-style: italic;
-}
-
-.hljs-strong {
-	font-weight: bold;
-} */
-
-/*
-
 Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
 
 */
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #282828;
-}
-
-.hljs,
-.hljs-subst {
-  color: #ebdbb2;
-}
-
-/* Gruvbox Red */
-.hljs-deletion,
-.hljs-formula,
-.hljs-keyword,
-.hljs-link,
-.hljs-selector-tag {
-  color: #fb4934;
-}
-
-/* Gruvbox Blue */
-.hljs-built_in,
-.hljs-emphasis,
-.hljs-name,
-.hljs-quote,
-.hljs-strong,
-.hljs-title,
-.hljs-variable {
-  color: #83a598;
-}
-
-/* Gruvbox Yellow */
-.hljs-attr,
-.hljs-params,
-.hljs-template-tag,
-.hljs-type {
-  color: #fabd2f;
-}
-
-/* Gruvbox Purple */
-.hljs-builtin-name,
-.hljs-doctag,
-.hljs-literal,
-.hljs-number {
-  color: #8f3f71;
-}
-
-/* Gruvbox Orange */
-.hljs-code,
-.hljs-meta,
-.hljs-regexp,
-.hljs-selector-id,
-.hljs-template-variable {
-  color: #fe8019;
-}
-
-/* Gruvbox Green */
-.hljs-addition,
-.hljs-meta-string,
-.hljs-section,
-.hljs-selector-attr,
-.hljs-selector-class,
-.hljs-string,
-.hljs-symbol {
-  color: #b8bb26;
-}
-
-/* Gruvbox Aqua */
-.hljs-attribute,
-.hljs-bullet,
-.hljs-class,
-.hljs-function,
-.hljs-function .hljs-keyword,
-.hljs-meta-keyword,
-.hljs-selector-pseudo,
-.hljs-tag {
-  color: #8ec07c;
-}
-
-/* Gruvbox Gray */
-.hljs-comment {
-  color: #928374;
-}
-
-/* Gruvbox Purple */
-.hljs-link_label,
-.hljs-literal,
-.hljs-number {
-  color: #d3869b;
-}
-
-.hljs-comment,
-.hljs-emphasis {
-  font-style: italic;
-}
-
-.hljs-section,
-.hljs-strong,
-.hljs-tag {
-  font-weight: bold;
-}
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: #282828;
+  }
+  
+  .hljs,
+  .hljs-subst {
+	color: #ebdbb2;
+  }
+  
+  /* Gruvbox Red */
+  .hljs-deletion,
+  .hljs-formula,
+  .hljs-keyword,
+  .hljs-link,
+  .hljs-selector-tag {
+	color: #fb4934;
+  }
+  
+  /* Gruvbox Blue */
+  .hljs-built_in,
+  .hljs-emphasis,
+  .hljs-name,
+  .hljs-quote,
+  .hljs-strong,
+  .hljs-title,
+  .hljs-variable {
+	color: #83a598;
+  }
+  
+  /* Gruvbox Yellow */
+  .hljs-attr,
+  .hljs-params,
+  .hljs-template-tag,
+  .hljs-type {
+	color: #fabd2f;
+  }
+  
+  /* Gruvbox Purple */
+  .hljs-builtin-name,
+  .hljs-doctag,
+  .hljs-literal,
+  .hljs-number {
+	color: #8f3f71;
+  }
+  
+  /* Gruvbox Orange */
+  .hljs-code,
+  .hljs-meta,
+  .hljs-regexp,
+  .hljs-selector-id,
+  .hljs-template-variable {
+	color: #fe8019;
+  }
+  
+  /* Gruvbox Green */
+  .hljs-addition,
+  .hljs-meta-string,
+  .hljs-section,
+  .hljs-selector-attr,
+  .hljs-selector-class,
+  .hljs-string,
+  .hljs-symbol {
+	color: #b8bb26;
+  }
+  
+  /* Gruvbox Aqua */
+  .hljs-attribute,
+  .hljs-bullet,
+  .hljs-class,
+  .hljs-function,
+  .hljs-function .hljs-keyword,
+  .hljs-meta-keyword,
+  .hljs-selector-pseudo,
+  .hljs-tag {
+	color: #8ec07c;
+  }
+  
+  /* Gruvbox Gray */
+  .hljs-comment {
+	color: #928374;
+  }
+  
+  /* Gruvbox Purple */
+  .hljs-link_label,
+  .hljs-literal,
+  .hljs-number {
+	color: #d3869b;
+  }
+  
+  .hljs-comment,
+  .hljs-emphasis {
+	font-style: italic;
+  }
+  
+  .hljs-section,
+  .hljs-strong,
+  .hljs-tag {
+	font-weight: bold;
+  }
+  
 
 /* Custom styles by Sridhar */
 
-code,
+body {
+	/* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.wp-block-code code,
 .entry-content code {
 	background-color: rgba(27,31,35,0.05);
-	color: #24292e;
-	border-radius: 3px;
-	/* font-size: 85%; */
-	padding: 2px 4px;
+	font-size: 85%;
 	font-family: 'Source Code Pro', monospace;
 }
 
-pre {
+pre.wp-block-code {
 	padding: 16px;
-	overflow: auto;
-	/* font-size: 85%; */
-	line-height: 1.45;
-	/* background-color: #f6f8fa; */
 	background-color: #282828;
 	border-radius: 3px;
 	position: relative;
