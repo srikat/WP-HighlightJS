@@ -1,12 +1,14 @@
 # WP HighlightJS #
 
-Loads [highlight.js](https://highlightjs.org/) and [clipboard.js](https://clipboardjs.com/) on singular pages for syntax highlighting with a 1-click copy to clipboard button.
+Loads [highlight.js](https://highlightjs.org/) and [clipboard.js](https://clipboardjs.com/) on single posts for syntax highlighting with a 1-click copy to clipboard button.
 
 ![Screenshot](https://d.pr/i/abb4xb+ "Screenshot")
 
 Copy to Clipboard Button appears in the top right corner when the mouse moves over the code snippet for screen sizes 769px and above.
 
 ![Screenshot](https://d.pr/i/u6MPQm+ "Screenshot")
+
+[Live Example](https://wpdevdesign.com/how-to-add-cpt-entries-in-author-archives/).
 
 From 768px and below, it will always appear.
 
@@ -35,16 +37,21 @@ Included Languages:
 
 ## Usage ##
 
-In WordPress' Gutenberg editor, press three backticks (found on the ~ key on your keyboard) and hit return. Then place your code and close the code block with three backticks.
+In WordPress' Gutenberg editor, press three backticks (found on the ~ key on your keyboard) and hit return. Then place your code.
 
 ## Changelog ##
 
+### 2.0.2 - Aug 07, 2022 ###
+* Updated highlight.js and clipboard.js libraries to their latest versions.
+* Removed "word-wrap: break-word" block for body element in CSS.
+* Set the plugin to load only on singular posts and not all singular pages.
+
 ### 2.0.1 - Jan 11, 2021 ###
-* Updated highlight.js clipboard.js libraries to their latest versions.
+* Updated highlight.js and clipboard.js libraries to their latest versions.
 * Misc. CSS fixes.
 
 ### 2.0.0 - August 21, 2019 ###
-* Updated highlight.js clipboard.js libraries to their latest versions.
+* Updated highlight.js and clipboard.js libraries to their latest versions.
 * Updated init js file to fix errors in the console.
 * Plugin name is not hardcoded any more in the init js file.
 * Replaced Github color theme with Gruvbox Dark.
@@ -54,7 +61,7 @@ In WordPress' Gutenberg editor, press three backticks (found on the ~ key on you
 
 ## Others ##
 
-Tested up to: 5.2.2
+Tested up to: 5.8
 
 License: GPLv2 or later
 

@@ -3,7 +3,7 @@
  * Plugin Name: WP HighlightJS
  * Plugin URI: https://github.com/srikat/WP-HighlightJS
  * Description: Loads HighlightJS and clipboard.js on singular pages for syntax highlighting with a 1-click copy to clipboard button.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: Sridhar Katakam
  * Author URI: https://sridharkatakam.com/
  * License:           GPL-2.0+
@@ -30,7 +30,7 @@ add_action( 'wp_enqueue_scripts', 'wphjs_enqueue_wphighlightjs' );
 function wphjs_enqueue_wphighlightjs() {
 
 	// if this is not a singular post, abort.
-	if ( ! is_singular() ) {
+	if ( ! is_singular( 'post' ) ) {
 		return;
 	}
 
@@ -38,9 +38,9 @@ function wphjs_enqueue_wphighlightjs() {
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap' );
 
-	wp_enqueue_script( 'clipboard', plugin_dir_url( __FILE__ ) . 'assets/js/clipboard.min.js', '', '2.0.6', true );
+	wp_enqueue_script( 'clipboard', plugin_dir_url( __FILE__ ) . 'assets/js/clipboard.min.js', '', '2.0.8', true );
 
-	wp_enqueue_script( 'highlightjs', plugin_dir_url( __FILE__ ) . 'assets/js/highlight.pack.js', '', '10.5.0', true );
+	wp_enqueue_script( 'highlightjs', plugin_dir_url( __FILE__ ) . 'assets/js/highlight.min.js', '', '11.0.1', true );
 
 	wp_enqueue_script( 'highlightjs-init', plugin_dir_url( __FILE__ ) . 'assets/js/highlight-init.js', '', '1.0.0', true );
 
