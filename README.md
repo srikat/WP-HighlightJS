@@ -41,6 +41,9 @@ In WordPress' Gutenberg editor, press three backticks (found on the ~ key on you
 
 ## Changelog ##
 
+### 2.0.3 - Aug 20, 2021 ###
+* Updated deprecated HLJS Function. Thanks to [Taylor](https://github.com/srikat/WP-HighlightJS/issues/3).
+
 ### 2.0.2 - Aug 07, 2021 ###
 * Updated highlight.js and clipboard.js libraries to their latest versions.
 * Removed "word-wrap: break-word" block for body element in CSS.

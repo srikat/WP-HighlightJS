@@ -3,7 +3,7 @@
  * Plugin Name: WP HighlightJS
  * Plugin URI: https://github.com/srikat/WP-HighlightJS
  * Description: Loads HighlightJS and clipboard.js on singular pages for syntax highlighting with a 1-click copy to clipboard button.
- * Version: 2.0.2
+ * Version: 2.0.3
  * Author: Sridhar Katakam
  * Author URI: https://sridharkatakam.com/
  * License:           GPL-2.0+
